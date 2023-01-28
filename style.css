@@ -1,0 +1,14 @@
+:root {
+  --background-color: #0d192c;
+  --soft-blue: #8bacd9;
+  --white: #fff;
+  --cyan-hover: #00fff8;
+  --dark-blue-card: #15263f;
+  --dar-blue-line: #2e405a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
