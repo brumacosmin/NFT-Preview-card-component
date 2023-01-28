@@ -12,3 +12,39 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+  font-size: 1.125rem;
+  display: grid;
+  place-content: center;
+  color: var(--soft-blue);
+}
+
+.main-container {
+  background-color: var(--dark-blue-card);
+  max-width: 23rem;
+  border-radius: 15px;
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/*main image*/
+
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/*title and description section*/
+
+.NFT-name {
+  color: var(--white);
+}
+
+/*price section*/
+
+/*author section*/
