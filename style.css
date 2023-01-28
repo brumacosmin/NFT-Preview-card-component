@@ -20,6 +20,8 @@ body {
   display: grid;
   place-content: center;
   color: var(--soft-blue);
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
 }
 
 .main-container {
@@ -43,8 +45,35 @@ body {
 
 .NFT-name {
   color: var(--white);
+  font-weight: 600;
+  font-size: 1.375rem;
+}
+
+.NFT-description {
+  line-height: 1.625rem;
 }
 
 /*price section*/
 
-/*author section*/
+.price-and-time-section {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.price {
+  font-weight: 600;
+  color: var(--cyan-hover);
+}
+
+.time-left {
+  font-weight: 400;
+}
+
+.price,
+.time-left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
